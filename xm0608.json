@@ -29,8 +29,6 @@
 // ⇩⇩ APPYSV2 ⇩⇩
 
 {"key":"v2_团夕","name":"团夕(V2)","type":3,"api":"csp_AppYs2","searchable":1,"quickSearch": 0,"filterable":1, "ext":"https://www.kan365.xyz/api.php/app/"},
-{"key":"csp_appysv2_南府","name":"南府(V2)","type":3,"api":"csp_AppYs2","searchable":1,"quickSearch": 0,"filterable":1, "ext":"http://iapp.nfuxs.club/nfuxs.php/v1.vod"},
-
 // ⇩⇩ XPTAH ⇩⇩
 
 {"key":"csp_xpath_huya","name":"虎牙直播","type":3,"api":"csp_XPath","searchable":1,"quickSearch":0,"filterable":0,"ext":"网上自己找XPATH"},
