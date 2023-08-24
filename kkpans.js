@@ -98,7 +98,7 @@ let new_html=request(rule.homeUrl + 'search.php?mod=forum', _fetch_params);
 log('kkpans search new_html >>>>>>>>>>>>>>>>>>>>>' + new_html);
 let json=JSON.parse(new_html);
 let setCk=Object.keys(json).find(it=>it.toLowerCase()==="set-cookie");
-let cookie="";
+let cookie="wpkreporterwid_=cfbd5a16-5341-4ed7-bec7-e5e2442d5b38; ctoken=lPpRt3wc43PBN0hgjyHULe5I; b-user-id=f744000b-650c-20cd-3508-a406b6b543b4; __chkey=; _UP_BT_=html5; _UP_D_=mobile; _UP_A4A_11_=wb9041d4c57c4a168e400513f03b76da; _UP_30C_6A_=st9046201f9oo0tfn0054mc7o13481ob; _UP_TS_=sg1e66fdff5310759c1a5756ad66e9ee88e; _UP_E37_B7_=sg1e66fdff5310759c1a5756ad66e9ee88e; _UP_TG_=st9046201f9oo0tfn0054mc7o13481ob; _UP_335_2B_=1; _UP_F7E_8D_=0z44HdIBxZaE8Hlf5pDjSmopmnezCzd3c0ozaWnXniiz95%2Fn6Lzu%2B6nqo%2BgfwknPFGMl%2B7Cvk%2BZLHpvA%2Fhicy1HUTu2LBlCPY%2BL6ofX53iy8v%2FLz4woFWkhmC6lRs%2F8wX5eOGDqSGLN4QMK1y53OwalxR72Nkj7G90DHop30hNkORIeucE5T%2Fq9SLWXCTocls5EIZ6ByMGtX7oL3ol9ckr3RtPhhFQZjAOft%2Bu2GGmXh2eOx77b6tsC7XIWexh9imR67tcUZl5IyzEv8tTeKTKUKOyV1ip6S7JZL0m0LzCR%2BFM%2F9vkfcPlY2bWIcnRCf3ZXQbwe7a1TB9yIWEqFMNgGExe3jYhflPQ4AEr2%2BFX76LKfhBZe758tEzbHEmTDpfA3H4sZcJGE6cEgmOOeuHxxgPXMsSrLXt6QUVC0k0fAOgu8PFUpkcRvqHxgs7DLpdzRmOsJepQSEmCdnEg0tdNB46oW9xXFri8Ekknbxg8Q%3D";
 if (typeof setCk !== "undefined"){
 	let d=[];
 	for(const key in json[setCk]){
